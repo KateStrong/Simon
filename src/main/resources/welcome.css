@@ -1,0 +1,46 @@
+/* *****************************************
+ * Name: Kate Strong
+ * Date: 2/23/2023
+ *
+ * Project: Simon
+ *
+ * Description:
+ * Styling for welcome page
+ */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+.root {
+    -fx-spacing: 10;
+    -fx-min-height: 600px;
+    -fx-min-width: 600px;
+    -fx-padding: 10;
+    -fx-alignment: center;
+    -fx-background-image: url("mainMenuBackground.jpg");
+    -fx-background-size: 900 600;
+}
+
+.button {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(gaussian,black,5,0,5,5);
+}
+
+.button:pressed {
+    -fx-effect: dropshadow(gaussian,black,8,0,8,8);
+    -fx-translate-y: 4px;
+}
+
+.label{
+    -fx-text-fill: white;
+    -fx-font-size: 50px;
+    -fx-spacing: 10;
+    -fx-padding:10;
+    -fx-font-family: 'Bungee Shade', cursive;
+}
+
+.instruction{
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-family:Impact;
+}
+

@@ -1,0 +1,96 @@
+/* *****************************************
+ * Name: Kate Strong
+ * Date: 2/23/2023
+ *
+ * Project: Simon
+ *
+ * Description:
+ * Styling for the simon Game
+ * Import for Start button font https://www.youtube.com/watch?v=rpJHQ1kpYC0
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+.root {
+    -fx-spacing: 10;
+    -fx-min-height: 600px;
+    -fx-min-width: 600px;
+    -fx-padding: 10;
+    -fx-alignment: center;
+    -fx-background-image: url("mainMenuBackground.jpg");
+    -fx-background-size: 900 600;
+    -fx-font-family: 'Bungee Shade', cursive;
+    -fx-font-size: 30px;
+}
+
+
+.green_button{
+    -fx-translate-x: -150;
+    -fx-translate-y: 122;
+    -fx-scale-x: 75%;
+    -fx-scale-y: 75%;
+}
+
+.red_button{
+    -fx-scale-x: 75%;
+    -fx-scale-y: 75%;
+    -fx-translate-x: -55;
+    -fx-translate-y: -183;
+}
+
+.blue_button{
+    -fx-scale-x: 75%;
+    -fx-scale-y: 75%;
+    -fx-translate-x: -120;
+    -fx-translate-y: -173;
+}
+
+.yellow_button{
+    -fx-scale-x: 75%;
+    -fx-scale-y: 75%;
+    -fx-translate-x: -25;
+    -fx-translate-y: 122;
+}
+
+.start_button{
+    -fx-shape: "M 450 300 C 450 405 405 450 300 450 C 195 450 150 405 150 300 C 150 195 195 150 300 150 C 405 150 450 195 450 300 ";
+    -fx-background-color: black;
+    -fx-translate-x: 200;
+    -fx-translate-y: 200;
+    -fx-pref-width: 200;
+    -fx-pref-height: 200;
+    -fx-effect: dropshadow(gaussian,black,5,0,5,5);
+    -fx-text-fill: white;
+}
+
+.green_button:pressed {
+    -fx-translate-y: 125;
+}
+
+.yellow_button:pressed {
+    -fx-translate-y: 125;
+}
+
+.blue_button:pressed {
+    -fx-translate-y: -170;
+}
+
+.red_button:pressed {
+    -fx-translate-y: -180;
+}
+
+.start_button:pressed {
+    -fx-translate-y: 203;
+}
+
+CheckBox {
+    -fx-padding: 10;
+}
+
+.light {
+    -fx-effect: dropshadow(gaussian,black,5,0,5,5);
+}
+
+.label{
+    -fx-text-fill: white;
+}
